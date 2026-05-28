@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Image Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="navbar">
+
+    <div class="logo">
+      IMAGE GALLERY
+    </div>
+
+    <div class="nav-links">
+
+      <a href="#home">Home</a>
+
+      <a href="#gallery">Gallery</a>
+
+      <a href="#collections">Collections</a>
+
+      <a href="#contact">Contact</a>
+
+    </div>
+
+  </nav>
+
+  <!-- Hero Section -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <h1>
+        Modern Digital Image Gallery
+      </h1>
+
+      <p>
+        Explore premium artwork collections with modern UI,
+        smooth animations and responsive layouts.
+      </p>
+
+      <a href="#gallery">
+
+        <button>
+          Explore Gallery
+        </button>
+
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- Filter Buttons -->
+
+  <section class="filter-section">
+
+    <button class="active" data-filter="all">All</button>
+
+    <button data-filter="nature">Nature</button>
+
+    <button data-filter="abstract">Abstract</button>
+
+    <button data-filter="city">City</button>
+
+  </section>
+
+  <!-- Gallery Section -->
+
+  <section class="gallery" id="gallery">
+
+    <div class="card nature">
+
+      <img src="https://picsum.photos/id/1015/600/700" alt="">
+
+      <div class="card-content">
+
+        <h3>Forest Dreams</h3>
+
+        <p>Nature Collection</p>
+
+      </div>
+
+    </div>
+
+    <div class="card abstract">
+
+      <img src="https://picsum.photos/id/1025/600/700" alt="">
+
+      <div class="card-content">
+
+        <h3>Abstract Soul</h3>
+
+        <p>Abstract Collection</p>
+
+      </div>
+
+    </div>
+
+    <div class="card city">
+
+      <img src="https://picsum.photos/id/1031/600/700" alt="">
+
+      <div class="card-content">
+
+        <h3>City Lights</h3>
+
+        <p>Urban Collection</p>
+
+      </div>
+
+    </div>
+
+    <div class="card nature">
+
+      <img src="https://picsum.photos/id/1043/600/700" alt="">
+
+      <div class="card-content">
+
+        <h3>Wild Nature</h3>
+
+        <p>Nature Collection</p>
+
+      </div>
+
+    </div>
+
+    <div class="card abstract">
+
+      <img src="https://picsum.photos/id/1060/600/700" alt="">
+
+      <div class="card-content">
+
+        <h3>Creative Energy</h3>
+
+        <p>Abstract Collection</p>
+
+      </div>
+
+    </div>
+
+    <div class="card city">
+
+      <img src="https://picsum.photos/id/1076/600/700" alt="">
+
+      <div class="card-content">
+
+        <h3>Night Streets</h3>
+
+        <p>City Collection</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Collection Section -->
+
+  <section class="collections" id="collections">
+
+    <h2>Featured Collections</h2>
+
+    <div class="collection-box">
+
+      <div class="collection-card">
+
+        <h3>Nature Art</h3>
+
+        <p>
+          Modern nature inspired artworks with premium designs.
+        </p>
+
+      </div>
+
+      <div class="collection-card">
+
+        <h3>Abstract Art</h3>
+
+        <p>
+          Creative abstract digital artwork collections.
+        </p>
+
+      </div>
+
+      <div class="collection-card">
+
+        <h3>Urban Art</h3>
+
+        <p>
+          Stylish city based premium artwork designs.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+
+  <section class="contact" id="contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="contact-box">
+
+      <div class="contact-card">
+
+        <h3>Phone</h3>
+
+        <a href="tel:9073701596">
+          9073701596
+        </a>
+
+      </div>
+
+      <div class="contact-card">
+
+        <h3>Email</h3>
+
+        <a href="mailto:yourmail@gmail.com">
+          yourmail@gmail.com
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Lightbox -->
+
+  <div class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">❮</button>
+
+    <img class="lightbox-img" src="" alt="">
+
+    <button class="next">❯</button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
